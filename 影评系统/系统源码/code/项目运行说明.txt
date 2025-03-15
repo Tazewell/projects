@@ -1,0 +1,28 @@
+
+环境：python 3.12
+
+一、导入数据库文件
+下载安装好MySQL8.0数据库，新建数据库flask_douban_comment，通过Navicat软件将flask_douban_comment.sql导入  （默认端口3306  账号root 密码123456）
+
+二、后端
+1、pycharm软件打开整个项目文件夹
+2、配置本地python编译器（建议新建虚拟环境）
+3、安装依赖库，在Teminal窗口分别执行：
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple 
+
+
+pip uninstall pyOpenSSL   【输入y确定卸载】
+pip install pyOpenSSL
+
+4、运行app.py
+
+三、前端
+1、打开teminal窗口，进入vue文件夹，
+输入安装命令：npm install   （前提安装好node.js）（用的node.js版本是16.20.0）
+
+2、启动命令： npm run serve
+
+四、访问网页
+1、浏览器打开网站：前端弹出的链接
